@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+>
+
+    <ImageView
+        android:contentDescription="@string/lg_desc_logo_bse"
+        android:layout_width="186dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_bse_sem_fundo"
+        android:id="@+id/imageView"
+        />
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:hint="@string/lg_et_hint_login"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:width="300dp"
+        android:hint="@string/lg_et_hint_senha"
+        android:inputType="textPassword"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/lg_btn_entrar"
+        android:onClick="login"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+</LinearLayout>

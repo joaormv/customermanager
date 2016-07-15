@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Manager</string>
+    <string name="lg_et_login">LOGIN</string>
+    <string name="lg_tv_incorretos">Usuário ou senha incorretos</string>
+    <string name="lg_desc_logo_bse">Logo BSE</string>
+    <string name="lg_et_hint_login">LOGIN</string>
+    <string name="lg_et_hint_senha">SENHA</string>
+    <string name="lg_btn_entrar">ENTRAR</string>
+    <string name="home_menu_titulo_busca">Buscar Cliente</string>
+    <string name="busca_et_hint_cpf">CPF</string>
+    <string name="busca_btn_buscar">Buscar</string>
+    <string name="busca_tv_porcpf">Busca de clientes por CPF:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

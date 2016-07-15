@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    >
+
+    <TextView
+        android:id="@+id/tv_informacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações Pessoais"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv_informacoes_nome_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome: "
+        android:layout_below="@+id/tv_informacoes"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="João Henrique Pataki Bernardes"
+        android:layout_alignBaseline="@+id/tv_informacoes_nome_label"
+        android:layout_toEndOf="@+id/tv_informacoes_nome_label" />
+
+    <TextView
+        android:id="@+id/tv_informacoes_cpf_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF: "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_informacoes_nome_label"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/tv_informacoes_cpf_label"
+        android:layout_alignBaseline="@+id/tv_informacoes_cpf_label"
+        android:text="345.789.741-45"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_matricula_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matricula: "
+        android:layout_alignBaseline="@+id/tv_informacoes_cpf"
+        android:layout_toEndOf="@+id/tv_informacoes_cpf"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_matricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45679741"
+        android:layout_alignBaseline="@+id/tv_informacoes_matricula_label"
+        android:layout_toEndOf="@+id/tv_informacoes_matricula_label"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_rg_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RG: "
+        android:layout_below="@+id/tv_informacoes_cpf_label"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45875654-7"
+        android:layout_alignBaseline="@+id/tv_informacoes_rg_label"
+        android:layout_toEndOf="@+id/tv_informacoes_rg_label"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_convenio_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convênio: "
+        android:layout_toEndOf="@+id/tv_informacoes_rg"
+        android:layout_alignBaseline="@+id/tv_informacoes_rg"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_convenio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PMSP"
+        android:layout_alignBaseline="@+id/tv_informacoes_convenio_label"
+        android:layout_toEndOf="@+id/tv_informacoes_convenio_label"/>
+
+
+    <TextView
+        android:id="@+id/tv_informacoes_tel1_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel: "
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_informacoes_rg_label"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_tel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4578-7896"
+        android:layout_alignBaseline="@+id/tv_informacoes_tel1_label"
+        android:layout_toEndOf="@+id/tv_informacoes_tel1_label"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_tel2_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel2: "
+        android:layout_alignBaseline="@+id/tv_informacoes_tel1"
+        android:layout_toEndOf="@+id/tv_informacoes_tel1"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_informacoes_tel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6345-7841"
+        android:layout_alignBaseline="@+id/tv_informacoes_tel2_label"
+        android:layout_toEndOf="@+id/tv_informacoes_tel2_label" />
+
+    <Button
+        android:id="@+id/btn_informacoes_buscarEmprestimos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_informacoes_tel1_label"
+        android:layout_marginTop="10dp"
+        android:text="Exibir Empréstimos"
+        android:onClick="buscarEmprestimos"/>
+
+    <ListView
+        android:id="@+id/list_emprestimos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn_informacoes_buscarEmprestimos"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>
